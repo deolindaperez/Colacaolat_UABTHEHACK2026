@@ -34,7 +34,7 @@ SOFT_LARGE = 200
 # Duration of each event type in hours.
 
 DAYS = ["MON", "TUE", "WED", "THU", "FRI"]
-HOURS = list(range(830, 1430))  # available hourly slots: 09:00 to 17:00
+HOURS = list(range(830, 1430))  # available hourly slots: 08:30 to 14:30
 
 # Total number of grid slots in the timetable.
 nG = len(DAYS) * len(HOURS)
